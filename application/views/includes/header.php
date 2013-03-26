@@ -29,7 +29,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             </button>
-          <a class="brand" href="index.htm">Yogathon 2013</a>
+          <a class="brand" href="<?base_url('index');?>">Yogathon 2013</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li class="active"><a href="index.htm">Home</a></li>
