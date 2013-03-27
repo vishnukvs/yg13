@@ -32,10 +32,10 @@
           <a class="brand" href="<?base_url('index');?>">Yogathon 2013</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="active"><a href="index.htm">Home</a></li>
-               <li><a href="about.html">About US</a></li>
-               <li><a href="rules.html">Rules</a></li>
-                <li><a href="contact.html">Contact US</a></li>
+              <li class="active"><?=anchor('site/home','Home');?></li>
+               <li><?=anchor('site/about','About');?></li>
+               <li><?=anchor('site/rules','Rules');?></li>
+                <li><?=anchor('site/contact','Contact US');?></li>
 				        <li><a href="register.html">Register </a></li>
             </ul>
          </div><!--/.nav-collapse -->
