@@ -65,6 +65,7 @@
 */
 
 $route['default_controller'] = 'site';
+$route['(:any)'] = "site/$1";
 $route['404_override'] = '';
 
 /* End of file routes.php */

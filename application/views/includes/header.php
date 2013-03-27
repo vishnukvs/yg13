@@ -35,8 +35,8 @@
               <li class="active"><?=anchor('site/home','Home');?></li>
                <li><?=anchor('site/about','About');?></li>
                <li><?=anchor('site/rules','Rules');?></li>
-                <li><?=anchor('site/contact','Contact US');?></li>
-				        <li><a href="register.html">Register </a></li>
+               <li><?=anchor('site/contact','Contact US');?></li>
+				        <li><?=anchor('site/register','Register');?></li>
             </ul>
          </div><!--/.nav-collapse -->
         </div>

@@ -7,4 +7,19 @@ class Site extends CI_Controller {
 	{
 		$this->load->view('home');
 	}
+	public function home(){
+		$this->load->view('home');
+	}
+	public function about(){
+		$this->load->view('about');
+	}
+	public function rules(){
+		$this->load->view('rules');
+	}
+	public function contact(){
+		$this->load->view('contact');
+	}
+	public function register(){
+		$this->load->view('register');
+	}
 }
