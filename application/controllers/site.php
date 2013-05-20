@@ -22,4 +22,7 @@ class Site extends CI_Controller {
 	public function register(){
 		$this->load->view('register');
 	}
+	public function photogallery(){
+		$this->load->view('photogallery');
+	}
 }

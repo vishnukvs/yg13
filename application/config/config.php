@@ -39,7 +39,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://localhost/newyogathon';
+$config['base_url']	= 'http://localhost/yg13';
 
 /*
 |--------------------------------------------------------------------------
