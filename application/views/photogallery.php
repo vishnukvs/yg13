@@ -9,6 +9,12 @@
    <link href= "<?=base_url('css/bootstrap.css');?>" rel="stylesheet">
    <link href="<?=base_url('css/style.css');?>" rel="stylesheet">
    <link href="<?=base_url('css/bootstrap-responsive.css');?>" rel="stylesheet">
+   <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+   <!-- Fav and touch icons -->
+   <link rel="shortcut icon" href="<?=base_url('img/examples/favicon.ico');?>">
 	<script type="text/javascript" src="../js/jquery-1.9.0.min.js"></script>
 
 	<!-- Add mousewheel plugin (this is optional) -->
@@ -17,15 +23,12 @@
 	<!-- Add fancyBox main JS and CSS files -->
 	<script type="text/javascript" src="../source/jquery.fancybox.js?v=2.1.4"></script>
 	<link rel="stylesheet" type="text/css" href="../source/jquery.fancybox.css?v=2.1.4" media="screen" />
-
 	<!-- Add Button helper (this is optional) -->
 	<link rel="stylesheet" type="text/css" href="../source/helpers/jquery.fancybox-buttons.css?v=1.0.5" />
 	<script type="text/javascript" src="../source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
-
 	<!-- Add Thumbnail helper (this is optional) -->
 	<link rel="stylesheet" type="text/css" href="../source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" />
 	<script type="text/javascript" src="../source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
-
 	<!-- Add Media helper (this is optional) -->
 	<script type="text/javascript" src="../source/helpers/jquery.fancybox-media.js?v=1.0.5"></script>
 
@@ -90,7 +93,6 @@
 			box-shadow: 0 0 50px #222;
 		}
 	</style>
-	
 </head>
 <body>
 	<body>
@@ -109,28 +111,26 @@
                <li><?=anchor('site/about','About');?></li>
                <li><?=anchor('site/rules','Rules');?></li>
                <li><?=anchor('site/contact','Contact US');?></li>
-			        <li><?=anchor('site/photogallery','Photo Gallery');?></li>
+			   <li><?=anchor('site/photogallery','Photo Gallery');?></li>
             </ul>
          </div><!--/.nav-collapse -->
         </div>
       </div>
     </div><!--/end of top nav bar-->
 	<div class="container">
-	<div class="row">
-        <div class="span8">
-		<h1>fancyBox</h1>
-		<h3>Simple image gallery</h3>
+	 <div class="row">
+      <div class="span8">
+       <div class="photogallery">
+		<h1>Yogathon Photos</h1>
+	     <h3>The Setup</h3>
 	<p>
-		<a class="fancybox" href="../img/examples/sn_large1.jpg" data-fancybox-group="gallery" title="Doing Sun Salutes"><img src="../img/examples/sn_small1.jpg" alt="" /></a>
-
-		<a class="fancybox" href="../img/2_b.jpg" data-fancybox-group="gallery" title="Devyani rocks"><img src="../img/2_s.jpg" alt="" /></a>
-
-		<a class="fancybox" href="../img/3_b.jpg" data-fancybox-group="gallery" title="The IT Man"><img src="../img/3_s.jpg" alt="" /></a>
-
+		<a class="fancybox" href="../img/yday/00.jpg" data-fancybox-group="gallery" title="Registration Desk"><img src="../img/yday/small/00.jpg" alt="" /></a>
+		<a class="fancybox" href="../img/yday/01.jpg" data-fancybox-group="gallery" title=""><img src="../img/yday/small/01.jpg" alt="" /></a>
+		<a class="fancybox" href="../img/yday/03.jpg" data-fancybox-group="gallery" title="The IT Man"><img src="../img/yday/small/03.jpg" alt="" /></a>
 		<a class="fancybox" href="../img/4_b.jpg" data-fancybox-group="gallery" title="Sed vel sapien vel sem uno"><img src="../img/4_s.jpg" alt="" /></a>
 	</p>
 
-	<h3>Different effects</h3>
+	<h3>The Participants</h3>
 	<p>
 		<a class="fancybox-effects-a" href="../img/5_b.jpg" title="doing sun salutes"><img src="../img/5_s.jpg" alt="" /></a>
 
@@ -140,9 +140,13 @@
 
 		<a class="fancybox-effects-c" href="../img/5_b.jpg" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit"><img src="../img/5_s.jpg" alt="" /></a>
 	</p>
+	<h3>The Final moments</h3>
+	<div class="span6">
+		<iframe src="http://www.facebook.com/video/embed?video_id=10200818214034253" width="580" height="420" frameborder="0"></iframe>
+	</div>
+	<h3>The Voluenteers</h3>
+
+</div><!--/end of photogallery-->
 </div><!--/end of span8-->
 </div><!--/end of row-->
-	
-	
-
- <?php $this->load->view('includes/footer');?>
+<?php $this->load->view('includes/footer');?>

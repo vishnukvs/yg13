@@ -12,8 +12,7 @@ html, body, div, ul {
 	margin: 0 0 1px; height: 100%; 
 	line-height: 1.5;
     padding-bottom: 60px;
-       
-}
+ }
 @font-face {
    font-family: 'BoycottRegular';
    src: url('BOYCOTT_-webfont.eot');
@@ -99,4 +98,7 @@ h3 {
 
  .mylogo{
  	margin-left: 200px;
+}
+.photogallery{
+	padding-top: 40px;
 }

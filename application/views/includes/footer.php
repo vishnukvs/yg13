@@ -1,4 +1,3 @@
-
       <hr>
       <!-- footer-->
       <footer id="footer">
@@ -9,7 +8,7 @@
    <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    
+     <script src="<?=base_url('js/bootstrap.min.js');?>"></script>
      <script src="<?=base_url('js/bootstrap-carousel.js');?>"></script>
      <script type="text/javascript">
       $('#myCarousel').carousel({
@@ -17,9 +16,8 @@
     })
     </script>
 
-</script>
 <script src="<?=base_url('js/youtube-plugin.js');?>"></script>
-   <script type="text/javascript">
+  <script type="text/javascript">
         $(function () {
             $("a.youtube").YouTubePopup({ autoplay: 0 });
         });
@@ -47,7 +45,7 @@ $("a.youtube").YouTubePopup({ idAttribute: 'youtube' });</script>
     'speedOut'    : 200, 
     'overlayShow' : false
   });
-  
+
 });
 </script>
 </body>
